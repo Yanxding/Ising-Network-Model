@@ -43,3 +43,6 @@ Input data X: 2-dimensional _m X n_ numpy array consisting _m_ observations and 
 4. __predict(self, X, i)__: predict the most likely state of node i given information of all other nodes
 
 ## Examples
+
+## Reference
+[Epskamp, S., Maris, G. K., Waldorp, L. J., & Borsboom, D. (2016). Network psychometrics. arXiv preprint arXiv:1609.02818.](http://sachaepskamp.com/dissertation/Chapter8.pdf)
