@@ -4,7 +4,7 @@ The Ising network model is a type of undirected graphical model that belongs to 
 
 ## Ising Model
 The general Markov Random Field can be parameterized as,
-
+![alt text](https://github.com/Yanxding/Ising-Network-Model/blob/appendix/1.PNG)
 
 ## How to Use the Module
 ### Pre-requisite
