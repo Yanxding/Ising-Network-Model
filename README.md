@@ -3,8 +3,20 @@
 The Ising network model is a type of undirected graphical model that belongs to the Markov Random Field. The Ising network model is closely related to psychometrics network models for modeling psychological traits. It is also widely used in diverse areas to model binary features from a graphical approach. However, despite its versatile application, there is no developed package in Python for the Ising network model. In this project, I developed a Python class for learning the Ising network model. This unsupervised learning algorithm estimates an Ising network model from data with binary features.
 
 ## Ising Model
-The general Markov Random Field can be parameterized as,
-![alt text](https://github.com/Yanxding/Ising-Network-Model/blob/appendix/1.PNG)
+The general Markov Random Field can be parameterized as, <br />
+<p align="center">
+<img src="https://github.com/Yanxding/Ising-Network-Model/blob/appendix/1.PNG" width="600">
+</p>
+The parameters are real-value parameters centered on 0. The _τ_ parameters can be interpreted as threshold parameters. If _τ_i=0_ the model does not prefer to be in one state or the other, and if _τ_i_ is higher (lower) the model prefers node _Xi_ to be in state 1 (-1). The _ω_ij_ parameters are the network parameters and denote the pairwise interaction between nodes _Xi_ and _Xj_. The higher (lower) _ω_ij_ becomes, the more nodes _Xi_ and _Xj_ prefer to be in the same (different) state. <br />
+Therefore, the total potential of X becomes,
+<p align="center">
+<img src="https://github.com/Yanxding/Ising-Network-Model/blob/appendix/2.PNG" width="600">
+</p>
+The probability distribution is obtained by normalizing over all possible realizations of X.
+<p align="center">
+<img src="https://github.com/Yanxding/Ising-Network-Model/blob/appendix/3.PNG" width="600">
+</p>
+
 
 ## How to Use the Module
 ### Pre-requisite
